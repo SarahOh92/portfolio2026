@@ -71,6 +71,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     background:transparent;
     -webkit-font-smoothing: antialised;
     font-size: 1rem;
+    word-break: keep-all;
 }
 html {
     overflow-y: scroll;
@@ -80,6 +81,7 @@ body{
     font-family: 'SUIT', sans-serif;
     line-height:1.5;
     color: #111111;
+    word-break: keep-all;
 }    
     
 article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section,div{
