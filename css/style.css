@@ -4,6 +4,7 @@
 .tit72{font-size: 4.5rem;}
 .tit48{font-size: 3rem;}
 .tit36{font-size: 2.25rem;}
+.tit32{font-size: 2rem;}
 .tit24{font-size: 1.5rem;}
 .tit20{font-size: 1.25rem;}
 .tit18{font-size: 1.125rem;}
@@ -117,7 +118,7 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .section{width: 100%;position: relative; padding: 180px 0;}
 .portfolio{display:flex;}
 
-.section.about{background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(239, 234, 226, 1) 100%);}
+.section.about{background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(239, 234, 226, 1) 50%, rgba(255, 255, 255, 1) 100%);}
 .section.about .about_wrapper{padding-bottom: 180px;}
 .section.about .about_wrapper .point_font__main, .section.about .resume_wrapper .point_font__main{color: #333333;}
 .section_subtit{margin-bottom: 60px;}
@@ -144,55 +145,23 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .about .resume_wrapper .resume_tools .tools_list_wrap li:nth-child(-n+4){margin-bottom: 40px;}
 
 /* project1 */
-.portfolio.section{background: #EFEAE2;}
-.project4.section{background: linear-gradient(180deg,rgba(239, 234, 226, 1) 0%, rgba(239, 234, 226, 1) 34%, rgba(239, 234, 226, 1) 54%, rgba(249, 247, 245, 1) 72%, rgba(255, 255, 255, 1) 100%);}
-.portfolio.project1, .project3,.project5{position: relative;}
-.pro_area{font-weight: 800;font-style: oblique;padding-top: 100px;}
-.pro_area .pro_area_line{position: relative;left: 85px;font-size: .9rem;}
-.pro_area .pro_area_line::before{content: '';width: 68px;height: 4px;border-radius: 40px;background-color: #89b3a9;margin-right: 18px;position: absolute;left: -81px;top: 4px;}
-.pro_area .pro_title{color: #89b3a9;font-size: 1.5rem;margin-top: 10px;}
-.left {position: absolute;transform: translateX(-100%);opacity: 0;transition: all 2s ease-in-out;width: 55%;left: 0;}
-.left.in{transform: translateX(30vw);opacity: 1;}
-.mockup{width: 57%;height: 442px;position: relative;top: 46px;}
-.mockup .computer{position: absolute;width:100%; height: 100%;}
-.mockup a.hidden{display:block; width: 100%; height: 100%; position: absolute; overflow: hidden;}
-.hidden img{position:relative; width:100%;}
-.mockup_m{width: 142px;position: relative;left: 462px;top: -19px;}
-.mockup_m .iphone{position: absolute;width:100%;}
-.mockup_m a.hidden{display:block; width: 123px; height: 267px; position: absolute; overflow: hidden;top: 6px;left:8px;border-radius: 20px;}
+.project.section{background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(239, 234, 226, 1) 100%);}
 
-/* 우측 프로젝트info */
-.project_info{position: relative;}
-.project_info>*{display: block;font-size:1.2vw;transition: all 1s;}
-.right{position: relative;left: 800px;top: 90px;width: 40%;max-width: 653px;}
-.right .project_info .tit{font-size: 1.5rem;font-weight: bold;}
-.right .epilog{font-size: 1rem;margin-top: 16px;border-radius: 10px;line-height: 25px;width: 100%;}
-.right .epilog .term{margin-top: 25px;}
+.project .project_wrapper{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.project .project_wrapper .project_item{width: 48.5%; border: 1px solid #D0D0D0; border-radius: 20px; overflow: hidden;}
+.project .project_wrapper .project_item:nth-child(-n+2){margin-bottom: 40px;}
+.project .project_wrapper .project_item .content{padding: 30px 20px; display: block; margin: 0;}
+.project .project_wrapper .project_item .content .content_title{margin-bottom: 24px;}
+.project .project_wrapper .project_item .content .content_title .small{font-size: 0.875;}
 
-.term_area{margin-top: 30px;font-size: 1rem;line-height: 1.5;}
-.term_area .term_title{font-weight: bold;}
-.epilog .term_area{margin-top: 30px;}
-.epilog .term_area .term_title{font-weight: bold;}
-.epilog .program_area .program_title{font-weight: bold;}
-.project3 .mockup_m{width: 139px;}
+.contact_area{padding: 80px 0; background: linear-gradient(180deg,rgba(239, 234, 226, 1) 0%, rgba(255, 255, 255, 1) 100%);}
+.contact_area .contact_top{display: flex; justify-content: space-between; align-items: center}
+.contact_area .contact_top .tit20{color: #666666;}
+.contact_area .contact_txt{font-family: "DM Serif Display", serif; font-size: 10rem; font-weight: 600; margin-top: 200px; line-height: 1.2;}
+.contact_area .contact_info{margin-top: 180px; text-align: right;}
+.contact_area .contact_info .contact_info__list{display: flex; justify-content: flex-end; align-items: center;}
+.contact_area .contact_info .contact_info__list .tit20{width: 5%; text-align: left;}
 
-.project4 .mockup .computer {border-radius: 20px;}
-
-.project5 .left .mockup_m{width: 297px;left: -15px;top: 137px;}
-.project5 .left .mockup_m div.hidden{display: block;width: 257px;height: 557px;position: absolute;overflow: hidden;top: 14px;left: 19px;border-radius: 24px;}
-.project5 .left .mockup_m div.hidden iframe{width: 100%;height: 605px;}
-.project5 .left .mockup_m_1 img{width: 290px;position: relative;top: 138px;left: 325px;}
-.contact_area .contact_top{background: #fff;height: 60vh;}
-.contact_area .contact_top .contents_box{display: flex;padding-top: 50px;}
-.contact_area .contact_content{width: 530px;height: 150px;padding: 6px;line-height: normal;font-size: 1.125rem;margin-right: 118px;line-height: 1.8;}
-.contact_area .contact_info{border: 2px solid #cc9872;padding: 57px;font-size: 1.125rem;}
-.contact_area .contact_bottom{height: 30vh;background: #b3a19b;font-size: 1.125rem;color: #fff;padding: 50px 0;}
-.contact_area .contact_bottom .top{display: flex; line-height: 1.8;}
-.contact_area .contact_bottom .info{width: 40%;}
-.contact_area .contact_bottom li a{color: #fff;display: inline-block; vertical-align: middle;text-align: center;}
-.contact_area .contact_bottom .sns_area li a{padding: 10px;}
-.contact_area .contact_bottom .useful_link li i{margin-right: 10px;vertical-align: middle;}
-.contact_area .contact_bottom .sns_area li a i{color: #fff;margin: 14px 22px 0 0;}
 @media screen and (max-width:1199px){
     .side_nav_area{width: 17%;}
     .inner{margin-left: 29%;}
