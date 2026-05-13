@@ -62,6 +62,7 @@
 ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 
 .main{width: 100vw;background: linear-gradient(180deg,rgba(239, 234, 226, 1) 0%, rgba(255, 255, 255, 1) 100%);height: 100vh;}
+.main.section{padding: 0;}
 
 .main_info{height: 100%;}
 .main_info .main_info__txt{width: 100%;height: 100vh; display: flex; flex-direction: column; justify-content: center;}
@@ -162,6 +163,17 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .contact_area .contact_info .contact_info__list{display: flex; justify-content: flex-end; align-items: center;}
 .contact_area .contact_info .contact_info__list .tit20{width: 5%; text-align: left;}
 
+/* project page 헵시바f&b */
+.subpage_main.project1{background-image: url(../img/hbfb-page_mainimg.png); width: 100%; height: 100vh; background-position: center center; background-repeat: no-repeat; background-size: cover;}
+.subpage_main .inner{display: flex; justify-content: space-between; align-items: center; height: 100%;}
+.subpage_main .overview_left{width: 48%; max-height: 657px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;}
+.subpage_main .overview_right{width: 48%;}
+
+.subpage_main .project_info_wrap li{display: flex; align-items: center; margin-bottom: 8px;}
+.subpage_main .project_info_wrap li .project_info__title{font-weight: 600; width: 24%;}
+.subpage_main .project_info_wrap li .project_info__program{display: flex;}
+.subpage_main .project_info_wrap li .project_info__program li.icon{width: 48px; height: 48px; background-size: cover; background-position: center center; background-repeat: no-repeat;margin-bottom: 0;}
+.subpage_main .project_info_wrap li .ai{background-image: url(../img/adobe_Illustrator_icon.png);}
 @media screen and (max-width:1199px){
     .side_nav_area{width: 17%;}
     .inner{margin-left: 29%;}
