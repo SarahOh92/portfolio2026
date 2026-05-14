@@ -5,6 +5,7 @@
 .tit48{font-size: 3rem;}
 .tit36{font-size: 2.25rem;}
 .tit32{font-size: 2rem;}
+.tit30{font-size: 1.875rem;}
 .tit24{font-size: 1.5rem;}
 .tit20{font-size: 1.25rem;}
 .tit18{font-size: 1.125rem;}
@@ -16,6 +17,7 @@
 .strong{font-weight: 700;}
 
 .primary_color{color: #088C7F;}
+.point_color__orange{color: #DE7860;}
 
 .side_nav_area{width: 20%;position: fixed;z-index: 1000;padding: 15px 25px;height: 100vh;background: rgba(255, 255, 255, 0.09);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);backdrop-filter: blur(9.4px);-webkit-backdrop-filter: blur(9.4px);border: 1px solid rgba(255, 255, 255, 0.58);}
 .content{margin:63px auto 50px;display: table;}
@@ -166,14 +168,28 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 /* project page 헵시바f&b */
 .subpage_main.project1{background-image: url(../img/hbfb-page_mainimg.png); width: 100%; height: 100vh; background-position: center center; background-repeat: no-repeat; background-size: cover;}
 .subpage_main .inner{display: flex; justify-content: space-between; align-items: center; height: 100%;}
-.subpage_main .overview_left{width: 48%; max-height: 657px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;}
-.subpage_main .overview_right{width: 48%;}
+.subpage_main .overview_left{width: 39%; max-height: 657px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;}
+.subpage_main .overview_right{width: 55%;}
+.subpage_main .overview_right .img_wrap{height: 556px;background-image: url(../project1-hfnb/hbfnb_mockup.png); background-size: cover; background-repeat: no-repeat; background-position: center center;}
 
 .subpage_main .project_info_wrap li{display: flex; align-items: center; margin-bottom: 8px;}
 .subpage_main .project_info_wrap li .project_info__title{font-weight: 600; width: 24%;}
 .subpage_main .project_info_wrap li .project_info__program{display: flex;}
 .subpage_main .project_info_wrap li .project_info__program li.icon{width: 48px; height: 48px; background-size: cover; background-position: center center; background-repeat: no-repeat;margin-bottom: 0;}
 .subpage_main .project_info_wrap li .ai{background-image: url(../img/adobe_Illustrator_icon.png);}
+.subpage_main .project_info_wrap li .ps{background-image: url(../img/adobe_Photoshop_icon.png);}
+.subpage_main .project_info_wrap li .figma{background-image: url(../img/figma_icon.png);}
+.subpage_main .project_info_wrap li .wordpress{background-image: url(../img/wordpress_icon.png);}
+
+.subpage_intro{padding: 200px 0; background-image: url(../img/project1_intro.png); background-size: cover; background-repeat: no-repeat; background-position: center center; color: #ffffff; text-align: center;}
+.subpage_intro .tit36{padding-bottom: 40px;}
+
+.subpage_problem{padding: 200px 0; background-color: #F9F8F8;}
+.subpage_problem .subpage_problem__titlewrap{display: flex; align-items: center; margin-bottom: 70px;}
+.subpage_problem .subpage_problem__titlewrap .subpage__tit{width: 14.5%;}
+.subpage_problem .subpage_problem__titlewrap .subpage__txt{color: #555555;}
+.subpage_problem .subpage_problem__contentswrap .problem_item{display: flex; background-color: #ffffff; padding: 40px; border-radius: 20px; box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);}
+
 @media screen and (max-width:1199px){
     .side_nav_area{width: 17%;}
     .inner{margin-left: 29%;}
