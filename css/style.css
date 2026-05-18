@@ -9,6 +9,7 @@
 .tit24{font-size: 1.5rem;}
 .tit20{font-size: 1.25rem;}
 .tit18{font-size: 1.125rem;}
+.small{font-size: 0.875rem;}
 
 .point_font__main{font-family: 'Cafe24 Dangdanghae';}
 .point_font__sub{font-family: "Cafe24 Ohsquare";}
@@ -216,11 +217,25 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 
 .subpage_persona{padding: 200px 0; background-color: #FFF6F3;}
 .subpage_persona .subpage__titlewrap{margin-bottom: 180px;}
-.subpage_persona .subpage_persona__item{display: flex; padding: 20px;}
+.subpage_persona .subpage_persona__item{display: flex; padding: 60px 20px; background-color: #ffffff; box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15); border-radius: 20px; margin-bottom: 120px;}
 .subpage_persona .subpage_persona__item .persona_item__profile_wrap{width: 47.5%; position: relative; display: flex; flex-direction: column;  justify-content: flex-end;}
 .subpage_persona .subpage_persona__item .persona_item__profile_wrap .profile_img{width: 277px; height: 277px; display: inline-block; background-position: center center; background-size: cover; background-repeat: no-repeat;position: absolute; content: ''; top: -150px;}
-.subpage_persona .subpage_persona__item .persona_item__profile_wrap.persona1 .profile_img{background-image: url(../img/profile1.png); }
+.subpage_persona .subpage_persona__item.persona1 .persona_item__profile_wrap .profile_img{background-image: url(../img/profile1.png);}
+.subpage_persona .subpage_persona__item.persona2 .persona_item__profile_wrap .profile_img{background-image: url(../img/profile2.png);}
 .subpage_persona .subpage_persona__item .persona_item__profile_wrap .profile_content{padding-left: 40px;}
+.subpage_persona .subpage_persona__item .persona_item__profile_wrap .profile_content .tit24{margin-bottom: 16px;}
+.subpage_persona .subpage_persona__item .persona_item__profile_wrap .profile_content .name{margin-bottom: 4px;}
+.subpage_persona .subpage_persona__item .persona_item__profile_wrap .profile_content .job{padding-bottom: 16px;}
+.subpage_persona .subpage_persona__item .persona_item__profile_wrap .profile_content .tag_wrap{display: flex;}
+.subpage_persona .subpage_persona__item .persona_item__profile_wrap .profile_content .tag_wrap .tag{background-color: #F8FBFD; border-radius: 50px; color: #08578C; font-weight: 700; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); padding: 7px 27px; margin-right: 8px;}
+.subpage_persona .subpage_persona__item .persona_item__data_wrap{width: 100%;}
+.subpage_persona .subpage_persona__item .persona_item__data_wrap .pain_needs_wrap{display: flex;}
+.subpage_persona .subpage_persona__item .persona_item__data_wrap .scenario_wrap{margin-bottom: 54px;}
+.subpage_persona .subpage_persona__item .persona_item__data_wrap .scenario_wrap .senario_content{color: #555555;}
+.persona_item__data_wrap .painpoint_wrap{margin-right: 40px;}
+.persona_item__data_wrap .tit20{padding-bottom: 12px;}
+.persona_item__data_wrap .pain_needs_wrap .list_wrap li{position: relative; display: flex; align-items: center; padding-left: 16px; color: #555555;}
+.persona_item__data_wrap .pain_needs_wrap .list_wrap li::after{position: absolute; content: ''; width: 6px; height: 6px; background-color: #088C7F; border-radius: 20px; left: 0;}
 
 @media screen and (max-width:1199px){
     .side_nav_area{width: 17%;}
