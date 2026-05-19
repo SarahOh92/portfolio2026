@@ -3,6 +3,7 @@
 .tit96{font-size: 6rem;}
 .tit72{font-size: 4.5rem;}
 .tit48{font-size: 3rem;}
+.tit40{font-size: 2.5rem;}
 .tit36{font-size: 2.25rem;}
 .tit32{font-size: 2rem;}
 .tit30{font-size: 1.875rem;}
@@ -236,6 +237,27 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .persona_item__data_wrap .tit20{padding-bottom: 12px;}
 .persona_item__data_wrap .pain_needs_wrap .list_wrap li{position: relative; display: flex; align-items: center; padding-left: 16px; color: #555555;}
 .persona_item__data_wrap .pain_needs_wrap .list_wrap li::after{position: absolute; content: ''; width: 6px; height: 6px; background-color: #088C7F; border-radius: 20px; left: 0;}
+
+.subpage_typography_color{padding: 200px 0; background-color: #F9F8F8;}
+.subpage_typography_color .typography_item{display: flex; margin-bottom: 80px;}
+.subpage_typography_color .typography_item.main_type{font-family: "Noto Sans KR", sans-serif;}
+.subpage_typography_color .typography_item .subtitle{width: 9%; padding-top: 1.2%;}
+.subpage_typography_color .typography_item .typography_wrap, .subpage_typography_color .typography_item .typography_weight{width: 40%; color: #333333;}
+.subpage_typography_color .typography_item .typography_weight{line-height: 1.2;}
+.subpage_typography_color .typography_item .typography_wrap .tit18{width: 78.5%;}
+.subpage_typography_color .typography_item .typography_weight .light{font-weight: 300;}
+.subpage_typography_color .typography_item .typography_weight .bold{font-weight: 700;}
+
+.subpage_typography_color .typography_item.point_type{font-family: "Cafe24 Ssurround", sans-serif; margin-bottom: 0;}
+.subpage_typography_color .typography_item.point_type .subtitle{font-family: 'SUIT', sans-serif;}
+.subpage_typography_color .typography_item.point_type .typography_wrap .tit18{font-family: 'SUIT', sans-serif; letter-spacing: -1.5px;}
+.subpage_typography_color .color_chip__wrapper{margin-top: 180px;}
+.subpage_typography_color .color_chip__wrapper .color_chip_wrap {display: flex; box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15); border-radius: 10px; overflow: hidden;}
+.subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip{height: 170px; padding: 20px; display: flex; flex-direction: column;     justify-content: space-between;}
+.subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip.primary{width: 440px;background-color: #DE7860; color: #ffffff;}
+.subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip.secondary{width: 400px;background-color: #F2D084; color: #ffffff;}
+.subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip.neutral_color{width: 360px;background-color: #1A1A1A; color: #ffffff;}
+.subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip.offset_white{width: 220px;background-color: #F8F8F8; color: #1A1A1A;}
 
 @media screen and (max-width:1199px){
     .side_nav_area{width: 17%;}
