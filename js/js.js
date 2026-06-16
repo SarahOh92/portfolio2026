@@ -1,36 +1,36 @@
-const topmenu = $("nav ul li");
-const sections = $(".section");
-const speed = 600;
-topmenu.click(function (e) {
-	e.preventDefault();
-	let target = $(this); 
-	let index = target.index(); 
-	let section = $(".section").eq(index);
-	let offset = section.offset().top;
-	$("html, body").animate({ scrollTop: offset }, 500, "easeOutCirc");
-});
-$(window).on("scroll", function () {
-	let scrollTop = $(window).scrollTop()
-	sections.each(function (i,o) {
-		if (scrollTop >= sections.eq(i).offset().top - speed) {
-			$("nav ul li").eq(i).addClass("active").siblings().removeClass("active");
-			sections.eq(i).find(".left").addClass("in");
-		}
-	})	
-})
+// const topmenu = $("nav ul li");
+// const sections = $(".section");
+// const speed = 600;
+// topmenu.click(function (e) {
+// 	e.preventDefault();
+// 	let target = $(this); 
+// 	let index = target.index(); 
+// 	let section = $(".section").eq(index);
+// 	let offset = section.offset().top;
+// 	$("html, body").animate({ scrollTop: offset }, 500, "easeOutCirc");
+// });
+// $(window).on("scroll", function () {
+// 	let scrollTop = $(window).scrollTop()
+// 	sections.each(function (i,o) {
+// 		if (scrollTop >= sections.eq(i).offset().top - speed) {
+// 			$("nav ul li").eq(i).addClass("active").siblings().removeClass("active");
+// 			sections.eq(i).find(".left").addClass("in");
+// 		}
+// 	})	
+// })
 
-$(".hidden").hover(
-	function () {
-	  let ah=$(this).innerHeight();
-	  let img=$(this).find('img');
-	  let imgh=img.innerHeight();
-	  img.stop().animate({top:ah-imgh},2000)
-	},
-	function () {
-	  let img = $(this).find("img")
-	  img.stop().animate({ top: 0 }, 2000);
-	}
-)
+// $(".hidden").hover(
+// 	function () {
+// 	  let ah=$(this).innerHeight();
+// 	  let img=$(this).find('img');
+// 	  let imgh=img.innerHeight();
+// 	  img.stop().animate({top:ah-imgh},2000)
+// 	},
+// 	function () {
+// 	  let img = $(this).find("img")
+// 	  img.stop().animate({ top: 0 }, 2000);
+// 	}
+// )
 setTimeout(() => {
 	const ChangeZone = document.querySelector(".Change");
 	var textone = "007";
