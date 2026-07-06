@@ -3,6 +3,7 @@
 .tit96{font-size: 6rem;}
 .tit80{font-size: 5rem;}
 .tit72{font-size: 4.5rem;}
+.tit64{font-size: 4rem;}
 .tit48{font-size: 3rem;}
 .tit40{font-size: 2.5rem;}
 .tit36{font-size: 2.25rem;}
@@ -144,16 +145,12 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .section.about{background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(239, 234, 226, 1) 50%, rgba(255, 255, 255, 1) 100%);}
 .section.about .about_wrapper{padding-bottom: 300px;}
 .section_subtit{margin-bottom: 120px; text-align: center;}
-.section_subtit .tit80{color: #ededed; position: relative; font-family: 'Cooper Hewitt', sans-serif; font-weight: 800; font-style: italic; line-height: 1;}
-.section_subtit .tit80::after{color: #088C7F; position: absolute; font-size: 1.5rem; font-family: "Cafe24 Ohsquare"; top: 50%; left: 50%; transform: translate(-50%, -50%); font-weight: 600; font-style: normal; letter-spacing: 1px;}
-.section.about .about_wrapper .section_subtit .tit80::after{content: 'ABOUT ME';}
-.section.about .resume_wrapper .section_subtit .tit80{color: #e0dbd4;}
-.section.about .resume_wrapper .section_subtit .tit80::after{content: 'RESUME';}
-.section.project .section_subtit .tit80::after{content: 'PROJECT';}
+.section_subtit .tit64{color: #ededed; position: relative; font-family: 'Cooper Hewitt', sans-serif; font-weight: 800; font-style: italic; line-height: 1;}
+.section.about .resume_wrapper .section_subtit .tit64{color: #e0dbd4;}
 
 .section.about{position: relative;}
 .section.about::before{position: absolute; content: ''; background-image: url(../img/circle-item.png); background-size: cover; width: 219px; height: 316px; background-repeat: no-repeat; background-position: center; top: 10%; right: 0; opacity: .5;}
-.section.about::after{position: absolute; content: ''; background-image: url(../img/circle-item2.png); background-size: cover; width: 316px; height: 341px; background-repeat: no-repeat; background-position: center; left: 0; top: 44%; opacity: .6;}
+.section.about::after{position: absolute; content: ''; background-image: url(../img/circle-item2.png); background-size: cover; width: 316px; height: 341px; background-repeat: no-repeat; background-position: center; left: -81px; top: 49%; opacity: .4;}
 .about .about__bottom{display: flex;}
 .about .about__bottom .about__bottom_left{width: 21.25%;}
 .about .about__bottom .about__bottom_left .about__info_item{margin-bottom: 24px;}
@@ -164,7 +161,7 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .about .about__bottom .about__bottom_right .tit24{padding-bottom: 8px;}
 
 .about .resume_wrapper .point_font__main{padding-bottom: 40px;}
-.about .resume_wrapper .resume_education, .about .resume_wrapper .resume_work{margin-bottom: 80px;} 
+.about .resume_wrapper .resume_education, .about .resume_wrapper .resume_work{margin-bottom: 120px;} 
 .about .resume_wrapper .list_wrapper li{display: flex; border-top: 1px solid #CBCBCB; padding: 44px 0;}
 .about .resume_wrapper .list_wrapper li:last-child{border-bottom: 1px solid #CBCBCB;}
 .about .resume_wrapper .list_wrapper li .date{width: 20%; color: #666666;}
@@ -202,7 +199,7 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .subpage_main .overview_left{width: 39%; max-height: 657px; height: 100%; display: flex; flex-direction: column; justify-content: space-between;}
 .subpage_main .overview_right{width: 55%;}
 .subpage_main .overview_right .img_wrap{background-size: cover; background-repeat: no-repeat; background-position: center center;height: 450px;}
-.subpage_main.project1 .overview_right .img_wrap{background-image: url(../project1-hfnb/projectpage_mainmockup__hb.png);}
+.subpage_main.project1 .overview_right .img_wrap{background-image: url(../img/project1-hfnb/projectpage_mainmockup__hb.png);}
 
 .subpage_main .project_info_wrap li{display: flex; align-items: center; margin-bottom: 8px;}
 .subpage_main .project_info_wrap li .project_info__title{font-weight: 600; width: 24%;}
@@ -275,8 +272,6 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .subpage_sub_pages .sub_pages__wrap .title{padding-bottom: 24px;}
 .subpage_sub_pages .sub_pages__wrap .imgwrap img{object-fit: cover; height: 100%;}
 
-.subpage_footer{background-position: center center; background-size: cover; width: 100vw; height: 100vh; background-repeat: no-repeat;}
-.subpage_footer.project1{background-image: url(../img/project1_footer__mockup.png);}
 
 /* project2 */
 .subpage_main.project2{background-image: url(../img/project2-main_background.png);}
@@ -300,8 +295,6 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .subpage_sub_pages.project2{background-color: #2D3E5F;}
 .subpage_sub_pages.project2 .title{color: #ffffff;}
 
-.subpage_footer.project2{background-image: url(../img/subpage_footer_mockup__project2.png);}
-
 .subpage_main.project3{background-image: url(../img/project3-main_background.png);}
 .subpage_main.project3 .overview_right .img_wrap{background-image: url(../project3-dmt/projectpage_mainmockup__dmt.png);}
 .subpage_intro.project3{background-image: url(../img/project3_intro.png);}
@@ -320,7 +313,6 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 .subpage_sub_pages.project3{background-color: #2D3E5F;}
 .subpage_sub_pages.project3 .sub_pages__wrap .title{color: #ffffff;}
 
-.subpage_footer.project3{background-image: url(../img/project3_footer__mockup.png);}
 
 @media screen and (max-width:1199px){
     .side_nav_area{width: 17%;}
