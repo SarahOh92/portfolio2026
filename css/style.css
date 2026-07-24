@@ -135,10 +135,9 @@ ul li.active a::after,ul li a:hover::after{transform: scaleX(1);}
 }
 .main_info .title_area h2{font-size: 3rem;}
 
-.btn_wrap{padding-top: 50px; display: flex;}
-.btn{box-shadow: 1px 1px 15px #d1d1d1; padding: 12px 24px;display: flex; font-weight: 600;font-size: 1.125rem; border-radius: 50px; width: 130px; border: 1px solid #088C7F;align-items: center; justify-content: space-between; margin-right: 24px;}
-.btn .btn_icon{position: relative; width: 24px; height: 24px;}
-.btn .btn_icon::after{position: absolute; content: ''; background-image: url(../img/arrow_right.png); display: inline-block; width: 24px; height: 24px;}
+.btn{box-shadow: 1px 1px 15px #d1d1d1; display: flex; font-weight: 600;font-size: 1.125rem; border-radius: 50px; width: 178px; border: 1px solid #088C7F;align-items: center; justify-content: space-between;}
+.btn .btn_icon{width: 24px; height: 24px;}
+.btn .btn_txt{padding: 12px 24px;}
 
 .section{width: 100%;position: relative; padding: 180px 0;}
 .portfolio{display:flex;}
