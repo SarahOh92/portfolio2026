@@ -30,9 +30,9 @@ $(function(){
 
 // 04. svg path 길이구하기
 $(function(){
-    $('.svgani').find('#svgAni01').each(function(i,path){
+    $('.svgani').find('#svgAni08').each(function(i,path){
         var length = path.getTotalLength();
-        //alert(length);
+        // alert(length);
     })
 })
 
@@ -62,7 +62,7 @@ $(function(){
             start : '0% 100%',
             end : '0% 20%',
             scrub : 1,
-             markers : true
+            // markers : true
         }
     })
     .fromTo('.con02 .title .a', {x: '-100%'}, {x: '0%', ease: 'none', duration: 5}, 0)

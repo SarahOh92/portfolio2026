@@ -18,6 +18,7 @@
 
 .en{font-family: "Public Sans", sans-serif;}
 .en2{font-family: "Cormorant", serif;}
+.point_font{font-family: 'Cafe24Anemone';}
 
 /* layout */
 body{font-family: "Noto Sans KR", sans-serif; font-size: 1rem; line-height: 1.6;}
@@ -26,13 +27,13 @@ body{font-family: "Noto Sans KR", sans-serif; font-size: 1rem; line-height: 1.6;
 /* header */
 header{width: 100%; position: fixed; left: 0; top: 0; background-color: rgba(0,0,0, .5); z-index: 100; padding: 30px 60px; box-sizing: border-box; display: flex; justify-content: space-between;}
 header.active{transform: translateY(-100%);}
-header .logo{color: #ffffff;}
+header .logo{color: #ffffff; font-size: 1.25rem;}
 header .menuOpen{display: none; transition: .3s;}
 .gnb ul{display: flex; justify-content: space-between;}
 .gnb ul li{margin-left: 70px;}
 
 /* gnb hover */
-.gnb ul li a .char{display: inline-block; position: relative; color: transparent; overflow: hidden;}
+.gnb ul li a .char{display: inline-block; position: relative; color: transparent; overflow: hidden; font-size: 1.125rem;}
 .gnb ul li a .char:before, .gnb ul li a .char::after{position: absolute; top: 0; left: 0; opacity: .6; color: #ffffff; content: attr(data-char); transition: transform .35s; transition-delay: calc(30ms * var(--char-index));}
 
 .gnb ul li a .char::before{transform: translateY(100%);}
@@ -41,11 +42,11 @@ header .menuOpen{display: none; transition: .3s;}
 
 /* visual */
 .visual{width: 100%; height: 100vh; padding-top: 125px; box-sizing: border-box; position: relative; letter-spacing: -1px;}
-.visual .maintext{font-size: 140px; font-weight: 400; line-height: 1.2; margin: 0 0 150px 60px; display: inline-block;}
+.visual .maintext{font-size: 140px; font-weight: 400; line-height: 1.2; margin: 0 0 100px 60px; display: inline-block;}
 .visual .maintext p{overflow: hidden;}
 .visual .subtext{margin-left: 20%;}
 .visual .scroll{position: fixed; left: 60px; bottom: 40px;}
-.visual .svgani{position: absolute; right: -2%; top: 9%; width: 55%; transform: rotate(-10deg);}
+.visual .svgani{position: absolute; right: -2%; top: -45%; width: 100%; transform: rotate(-3deg);}
 
 /* animation */
 .visual.motion .maintext{transform: translate3d(0,0,0) skewY(0deg); overflow: hidden;}
@@ -65,24 +66,60 @@ header .menuOpen{display: none; transition: .3s;}
 .visual.motion .subtext{animation-name: textani2; animation-duration: 2.3s;}
 
 /* svg 모션 */
-.visual.motion #svgAni01{stroke-dasharray: 675; stroke-dashoffset: 675; animation: ani1 .5s linear 2s forwards;}
-.visual.motion #svgAni03{stroke-dasharray: 3059; stroke-dashoffset: 3059; animation: ani3 2s linear .1s forwards;}
-.visual.motion #svgAni04{stroke-dasharray: 64; stroke-dashoffset: 64; animation: ani4 .2s linear 1s forwards;}
-.visual.motion #svgAni05{stroke-dasharray: 55; stroke-dashoffset: 55; animation: ani5 .2s linear 0s forwards;}
+.visual.motion #svgAni01{stroke-dasharray: 631; stroke-dashoffset: 631; animation: ani1 .1s linear 0s forwards;}
+.visual.motion #svgAni02{stroke-dasharray: 508; stroke-dashoffset: 508; animation: ani1 .1s linear 0s forwards;}
+.visual.motion #svgAni03{stroke-dasharray: 265; stroke-dashoffset: 265; animation: ani3 .2s linear .2s forwards;}
+.visual.motion #svgAni04{stroke-dasharray: 379; stroke-dashoffset: 379; animation: ani4 .2s linear .2s forwards;}
+.visual.motion #svgAni05{stroke-dasharray: 271; stroke-dashoffset: 271; animation: ani5 .2s linear .2s forwards;}
+.visual.motion #svgAni06{stroke-dasharray: 160; stroke-dashoffset: 160; animation: ani6 .2s linear 0.2s forwards;}
+.visual.motion #svgAni07{stroke-dasharray: 109; stroke-dashoffset: 109; animation: ani7 .2s linear 0.2s forwards;}
+.visual.motion #svgAni08{stroke-dasharray: 62; stroke-dashoffset: 62; animation: ani8 .2s linear .2s forwards;}
+.visual.motion #svgAni09{stroke-dasharray: 26; stroke-dashoffset: 26; animation: ani9 .2s linear 0.2s forwards;}
+.visual.motion #svgAni10{stroke-dasharray: 3; stroke-dashoffset: 3; animation: ani10 .5s linear 0.2s forwards;}
+.visual.motion #svgAni11{stroke-dasharray: 3; stroke-dashoffset: 3; animation: ani11 .5s linear 0.2s forwards;}
+.visual.motion #svgAni12{stroke-dasharray: 3; stroke-dashoffset: 3; animation: ani11 .5s linear 0.2s forwards;}
 @keyframes ani1{
-    0%{stroke-dashoffset: 675;}
+    0%{stroke-dashoffset: 631;}
+    100%{stroke-dashoffset: 0;}
+}
+@keyframes ani1{
+    0%{stroke-dashoffset: 508;}
     100%{stroke-dashoffset: 0;}
 }
 @keyframes ani3{ 
-    0%{stroke-dashoffset: 3059;}
+    0%{stroke-dashoffset: 265;}
     100%{stroke-dashoffset: 0;}
 }
 @keyframes ani4{
-    0%{stroke-dashoffset: 64;}
+    0%{stroke-dashoffset: 379;}
     100%{stroke-dashoffset: 0;}
 }
 @keyframes ani5{
-    0%{stroke-dashoffset: 55;}
+    0%{stroke-dashoffset: 271;}
+    100%{stroke-dashoffset: 0;}
+}
+@keyframes ani6{
+    0%{stroke-dashoffset: 160;}
+    100%{stroke-dashoffset: 0;}
+}
+@keyframes ani7{
+    0%{stroke-dashoffset: 109;}
+    100%{stroke-dashoffset: 0;}
+}
+@keyframes ani8{
+    0%{stroke-dashoffset: 62;}
+    100%{stroke-dashoffset: 0;}
+}
+@keyframes ani9{
+    0%{stroke-dashoffset: 26;}
+    100%{stroke-dashoffset: 0;}
+}
+@keyframes ani10{
+    0%{stroke-dashoffset: 3;}
+    100%{stroke-dashoffset: 0;}
+}
+@keyframes ani11{
+    0%{stroke-dashoffset: 3;}
     100%{stroke-dashoffset: 0;}
 }
 
@@ -162,8 +199,8 @@ footer .bottom .sns li{margin-right: 30px;}
 
 /* project1 - 헵시바f&b */
 .subpage_main{width: 100%; height: 100vh; background-position: center center; background-repeat: no-repeat; background-size: cover;}
+.subpage_main .inner{display: flex; justify-content: space-between;  align-items: center;}
 .subpage_main.project1{background-image: url(../img/hbfb-page_mainimg.png);}
-.subpage_main .inner2{display: flex; justify-content: space-between; align-items: center; height: 100%;}
 .subpage_main .overview_left{width: 39%;}
 .subpage_main .overview_left .tit64{padding-bottom: 36px;     line-height: 1;}
 .subpage_main .overview_left .project_detail_wrap{padding-bottom: 36px;}
