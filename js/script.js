@@ -42,7 +42,17 @@ $(function(){
         scrollTrigger: {
             trigger: '.con01', // 트리거 대상
             start: '0% 0%', // 트리거 대상의 0%와 브라우저의 80%가 만날때 애니매이션이 시작됨
-            end: '0% 20%', // 트리거 대상의 100%와 브라우저의 100%가 만날때 애니메이션이 종료됨
+            end: '50% 0%', // 트리거 대상의 100%와 브라우저의 100%가 만날때 애니메이션이 종료됨
+            scrub: 1, // GSAP ScrollTrigger의 이벤트가 스크롤이 사용될 때만 재생되도록 만들어주는 속성
+            // markers: true // 시작위치와 끝위치를 확인가능하게 하는 마커
+        }
+    })
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: '.con02', // 트리거 대상
+            start: '10% 0%', // 트리거 대상의 0%와 브라우저의 80%가 만날때 애니매이션이 시작됨
+            end: '0% 0%', // 트리거 대상의 100%와 브라우저의 100%가 만날때 애니메이션이 종료됨
             scrub: 1, // GSAP ScrollTrigger의 이벤트가 스크롤이 사용될 때만 재생되도록 만들어주는 속성
             // markers: true // 시작위치와 끝위치를 확인가능하게 하는 마커
         }
@@ -101,13 +111,13 @@ $(function(){
 });
 
 // simplyScroll
-$(function(){
-    $(".con02 .list").simplyScroll({
-        speed: 4,
-        pauseOnHover: false,
-        pauseOnTouch: false,
-    });
-});
+// $(function(){
+//     $(".con02 .list").simplyScroll({
+//         speed: 4,
+//         pauseOnHover: false,
+//         pauseOnTouch: false,
+//     });
+// });
 
 // menuOpen
 $(function(){
