@@ -407,8 +407,50 @@ footer .bottom .sns li{margin-right: 30px;}
     .visual {padding-top: 100px;}
     .visual .maintext{margin: 0 0 150px 25px;}
     .visual .subtext{bottom: 10%;}
-    
+    .visual .textLoop ul{font-size: 3.5rem;}
+
+    .con01{padding: 100px 0;}
+    .con01 .img_box img{width: 80%;}
+
+    .pin-spacer{margin-top: 431px !important;}
+
+    .con02 .list li{width: 253px; height: 320px;}
+    .con02 .list li .title .tit36{font-size: 1.5rem;}
+    .con02 .list li .title .tit80{font-size: 4rem;}
+
+    .con03 .work_list{flex-direction: column;}
+    .con03 .work_list li{width: 100%; margin-top: 80px; height: 410px;}
+    .con03 .title .en2{font-size: 7rem;}
     .con03 .text_wrap ul li.en2{padding-left: 10px;}
     footer .bottom{font-size: 17px; padding: 0 40px;}
     footer .bottom .sns li{margin-right: 10px;}
+
+    .subpage_main{padding: 132px 0;}
+    .subpage_main .tit64{font-size: 3rem;}
+    .subpage_main .overview_left .project_detail_wrap .tit18{font-size: 1rem;}
+    .subpage_main .project_info_wrap li .project_info__title{width: 44%;}
+    .subpage_main .overview_left .project_info_wrap{margin-bottom: 56px;}
+    .subpage_main .overview_right .img_wrap{height: 188px;}
+
+    .subpage_intro .tit36{font-size: 1.75rem;}
+    .subpage_intro .mobile .tit20{font-size: 1.125rem;}
+    .subpage_interview__contents_wrap .problem_item{padding: 0 20px; height: 300px;}
+    .subpage_interview__contents_wrap .problem_item .problem_item__top{padding-bottom: 24px;}
+    .subpage_interview__contents_wrap .problem_item .problem_item__top .tit32{font-size: 1.5rem;}
+
+    .subpage_strategy {padding: 150px 0;}
+    .subpage_strategy .subpage_strategy__solution_wrap .subpage_strategy__solution_txt{height: 220px;}
+    .subpage_strategy .subpage_strategy__solution_wrap .subpage_strategy__solution_txt .small_tit{padding-bottom: 0;}
+    .subpage_strategy .subpage_strategy__solution_wrap .subpage_strategy__solution_txt .tit32{font-size: 1.5rem; line-height: 1.2; padding-bottom: 20px;}
+
+    .subpage__titlewrap .subpage__tit{padding-right: 0; padding-bottom: 12px;}
+    .subpage__titlewrap .subpage__txt{font-size: 1.125rem;}
+    .subpage_typography_color .typography_item .typography_wrap .tit18{padding-bottom: 24px;}
+
+    .subpage_typography_color .typography_item .typography_wrap .tit48 {font-size: 2rem;}
+    .subpage_typography_color .typography_item .typography_weight .tit40 {font-size: 1.5rem;}
+
+    .subpage_main_design::before, .subpage_main_design::after{display: none;}
+
+    .gridsystem_image img{height: 205px; width: 344px;}
 } 
