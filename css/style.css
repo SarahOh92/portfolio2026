@@ -399,6 +399,7 @@ footer .bottom .sns li{margin-right: 30px;}
     .subpage_sub_pages .sub_pages__wrap .imgwrap img{width: 100%;}
 
     .subpage_main_design .subpage__titlewrap .subpage__txt{text-align: left;} 
+    .subpage_typography_color.project3 .typography_item .typography_wrap, .subpage_typography_color.project3 .typography_item .typography_weight{width: 80%;}
 }
 /* 500px ~ 401px */
 @media screen and (max-width:500px){
