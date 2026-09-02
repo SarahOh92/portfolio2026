@@ -187,6 +187,8 @@ footer .bottom .sns li{margin-right: 30px;}
 .subpage_intro{padding: 200px 0; background-image: url(../img/project1-hfnb/project1_intro.png); background-size: cover; background-repeat: no-repeat; background-position: center center; color: #ffffff; text-align: center;}
 .subpage_intro .tit36{padding-bottom: 40px;}
 
+.subpage_intro .mobile{display: none;}
+
 .subpage_interview{padding: 200px 0; background-color: #F9F8F8;}
 .subpage__titlewrap{display: flex; align-items: center; margin-bottom: 70px;}
 .subpage__titlewrap .subpage__tit{padding-right: 40px;}
@@ -367,7 +369,37 @@ footer .bottom .sns li{margin-right: 30px;}
     footer .text_wrap{width: 90%; padding: 0; left: 50%; top: 50%; transform: translate(-50%, -50%);}
     footer .text_wrap .title{padding: left;}
     footer .text_wrap .contact{margin-bottom: 40px;}
-} 
+
+    .subpage_main{padding: 100px 0;}
+    .subpage_main .inner, .subpage_interview__contents_wrap, .subpage_strategy .subpage_strategy__solution_wrap, .subpage_typography_color .typography_item, .subpage_sub_pages .sub_pages__wrap{flex-direction: column;}
+    .subpage_main .overview_left, .subpage_main .overview_right{width: 80%;}
+    .subpage_main .overview_right .img_wrap{height: 301px;}
+
+    .subpage_intro .inner{width: 80%;}
+    .subpage_intro .pc{display: none;}
+    .subpage_intro .mobile{display: block;}
+
+    .subpage__titlewrap{flex-direction: column; width: 80%; margin: 0 auto 48px;align-items: flex-start;}
+
+    .subpage_interview__contents_wrap .problem_item{width: 80%; margin: 0 auto 36px;}
+    .subpage_interview__contents_wrap .problem_item:last-child{margin: 0 auto 0;}
+    .subpage_strategy .subpage_strategy__solution_wrap li{margin-bottom: 72px;}
+    .subpage_strategy .subpage_strategy__issue_txt{width: 80%; margin: 0 auto 36px;}
+    .subpage_strategy .subpage_strategy__solution_wrap .subpage_strategy__solution_txt{width: 80%; margin: 0 auto;}
+
+    .subpage_typography_color .typography_item .subtitle, .subpage_typography_color .typography_item .typography_wrap, .subpage_typography_color .typography_item .typography_weight{width: 80%; margin: 0 auto;}
+    .subpage_typography_color .typography_item .typography_wrap .tit18{width: 100%;}
+    .subpage_typography_color .color_chip__wrapper .color_chip_wrap{flex-direction: column; border-radius: 0;}
+    .subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip.primary, .subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip.secondary,.subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip.neutral_color, .subpage_typography_color .color_chip__wrapper .color_chip_wrap .color_chip.offset_white{width: 100%;}
+    .gridsystem_image, .subpage_main_img{text-align: center;z-index: 10;}
+    .gridsystem_image img{height: 353px; width: 592px;}
+    .subpage_main_img img{height: 1480px; width: 620px;}
+
+    .subpage_sub_pages .sub_pages__wrap li{width: 80%; margin: 0 auto 80px;}
+    .subpage_sub_pages .sub_pages__wrap .imgwrap img{width: 100%;}
+
+    .subpage_main_design .subpage__titlewrap .subpage__txt{text-align: left;} 
+}
 /* 500px ~ 401px */
 @media screen and (max-width:500px){
     br.mo{display: none;}
