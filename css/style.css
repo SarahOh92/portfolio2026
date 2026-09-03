@@ -425,7 +425,7 @@ footer .bottom .sns li{margin-right: 30px;}
     .subpage_main .overview_left .project_detail_wrap .tit18{font-size: 1rem;}
     .subpage_main .project_info_wrap li .project_info__title{width: 44%;}
     .subpage_main .overview_left .project_info_wrap{margin-bottom: 56px;}
-    .subpage_main .overview_right .img_wrap{height: 188px;}
+    .subpage_main .overview_right .img_wrap{height: 159px;}
 
     .subpage_intro .tit36{font-size: 1.75rem;}
     .subpage_intro .mobile .tit20{font-size: 1.125rem;}
@@ -447,8 +447,6 @@ footer .bottom .sns li{margin-right: 30px;}
 
     .subpage_main_design::before, .subpage_main_design::after{display: none;}
 
-    .gridsystem_image img{height: 205px; width: 344px;}
-
-    .subpage_main_img img{height: 860px; width: 360px;}
+    .subpage_main_img img, .gridsystem_image img{height: 100%; width: 80%;}
     .subpage_subpage_mockup{height: 420px;}
 } 
