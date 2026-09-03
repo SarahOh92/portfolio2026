@@ -448,4 +448,7 @@ footer .bottom .sns li{margin-right: 30px;}
     .subpage_main_design::before, .subpage_main_design::after{display: none;}
 
     .gridsystem_image img{height: 205px; width: 344px;}
+
+    .subpage_main_img img{height: 860px; width: 360px;}
+    .subpage_subpage_mockup{height: 420px;}
 } 
